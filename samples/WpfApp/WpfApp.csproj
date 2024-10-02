@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Weikio.PluginFramework.Abstractions\Weikio.PluginFramework.Abstractions.csproj"/>
-    <ProjectReference Include="..\..\src\Weikio.PluginFramework\Weikio.PluginFramework.csproj"/>
-    <ProjectReference Include="..\Shared\Weikio.PluginFramework.Samples.Shared\Weikio.PluginFramework.Samples.Shared.csproj"/>
+    <ProjectReference Include="..\..\src\Weikio.PluginFramework.Abstractions\Weikio.PluginFramework.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Weikio.PluginFramework\Weikio.PluginFramework.csproj" />
+    <ProjectReference Include="..\Shared\Weikio.PluginFramework.Samples.Shared\Weikio.PluginFramework.Samples.Shared.csproj" />
   </ItemGroup>
 
 </Project>
