@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Weikio.PluginFramework.AspNetCore\Weikio.PluginFramework.AspNetCore.csproj"/>
-    <ProjectReference Include="..\..\src\Weikio.PluginFramework.Catalogs.Roslyn\Weikio.PluginFramework.Catalogs.Roslyn.csproj"/>
+    <ProjectReference Include="..\..\src\Weikio.PluginFramework.AspNetCore\Weikio.PluginFramework.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\Weikio.PluginFramework.Catalogs.Roslyn\Weikio.PluginFramework.Catalogs.Roslyn.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
